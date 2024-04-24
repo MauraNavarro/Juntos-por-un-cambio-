@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Juntos por un cambio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+        // Función para procesar el formulario de guardar datos
+        function guardarDatos() {
+            // Obtener los valores de los campos del formulario
+            var nombre = document.getElementById("nombre").value;
+            var apellido = document.getElementById("apellido").value;
+            var ciudad = document.getElementById("ciudad").value;
+            var pais = document.getElementById("pais").value;
+
+            // Aquí puedes realizar acciones adicionales, como enviar los datos a un servidor o mostrarlos en la página
+        }
+
+        // Función para procesar el formulario de búsqueda en Google
+        function buscarGoogle() {
+            var query = document.getElementById("busqueda").value;
+            var url = "https://www.google.com/search?q=" + encodeURIComponent(query);
+            // Redirigir a la página de búsqueda de Google
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+<header>
+<h1>Información imprescindible</h1>
+</header>
+<aside>
+<h3>Buscar en Google</h3>
+        <form onsubmit="buscarGoogle(); return false;">
+            <input type="text" id="busqueda" placeholder="Buscar en Google">
+            <input type="submit" value="Buscar">
+        </form>
+	<h3>Video de Youtube</h3>
+	<iframe width="370" height="200" src="https://www.youtube.com/embed/1uU5qathCus?si=tK215kePyz956vDJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 	
+	<h3>Video de Youtube</h3>
+	<iframe width="370" height="200" src="https://www.youtube.com/embed/2HYx8aItmXc?si=Kx0i1CpoWkahNUYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h4>Recursos Adicionales</h4>
+	<ul>
+	<li><a href="https://www.un.org/es/climatechange/science/climate-issues">Cuestiones climaticas</a></li>
+	<li><a href="https://www.un.org/es/climatechange/what-is-climate-change">Cambio climatico-Naciones unidas</a></li>
+	</ul>
+	</aside>
+<article>
+<h2>La causa del calentamiento global</h2>
+<p>Entre las causas antropogénicas, la más destacada es el efecto invernadero, en el que ciertos gases atmosféricos retienen calor en la atmósfera, provocando un aumento de las temperaturas globales. Este fenómeno se ve exacerbado por las emisiones de gases de efecto invernadero procedentes de la quema de combustibles fósiles y otras actividades industriales, agrícolas y de transporte.</p>
+</article>
+<section >
+<h3>Consecuencias del calentamiento global:</h3>
+<p>Algunos de los impactos más destacados incluyen un aumento en las temperaturas promedio globales, cambios en los patrones de lluvia, aumento del nivel del mar, reducción de áreas cubiertas por nieve y glaciares, tormentas, sequías, fenómenos climáticos extremos como lagos, tormentas y huracanes, y muchos más. . Olas de calor intensas y prolongadas, grandes incendios, daños a los cultivos y a la producción de alimentos, riesgos para la salud, etc.</p>
+<h4>Consecuencias ambientales</h4>
+<p>Las consecuencias ambientales del cambio climático son significativas y de amplio alcance. Incluyen un aumento en la frecuencia e intensidad de fenómenos climáticos extremos como olas de calor, sequías e inundaciones, así como la degradación del hábitat y la extinción de especies. El cambio climático provoca impactos repentinos como desastres naturales como inundaciones y terremotos, así como impactos lentos como sequías y aumento del nivel del mar, lo que resulta en desplazamientos humanos. En Europa, los aumentos de temperatura son más pronunciados en las regiones meridionales y árticas, y los cambios en las precipitaciones afectan a los ecosistemas, la salud humana y los recursos hídricos. Además, el cambio climático afecta negativamente a varios sectores económicos, incluidos la silvicultura, la agricultura, el turismo y la construcción. Las consecuencias se extienden a una reducción de la producción agrícola, el aumento del nivel del mar, un empeoramiento de la calidad de vida debido al estrés hídrico y un mayor riesgo de conflictos regionales en los países más pobres.1. En general, las consecuencias ambientales del cambio climático son profundas y afectan a los ecosistemas, la salud humana y los aspectos socioeconómicos a nivel mundial.</p>
+<h5>¿Cómo afecta el calentamiento global a los ecosistemas marinos?</h5>
+<p>El calentamiento global afecta a los ecosistemas marinos de diferentes maneras. En primer lugar, el aumento de la temperatura provoca el blanqueamiento de los corales, cambios en el ciclo reproductivo y movimiento de las especies marinas y la acidificación de los océanos. La acidificación de los océanos, provocada por la absorción de dióxido de carbono, afecta a organismos que dependen de estructuras de carbonato de calcio, como corales y moluscos, amenazando la salud de los arrecifes de coral y ecosistemas asociados.
+En segundo lugar, el derretimiento de los casquetes polares debido al calentamiento global provoca el aumento del nivel del mar, lo que afecta significativamente a las zonas costeras y a los ecosistemas marinos costeros. La degradación de los ecosistemas marinos tiene implicaciones sociales y económicas, ya que son una fuente de sustento y empleo para muchas comunidades costeras, y su degradación afecta desproporcionadamente a los más vulnerables.
+En tercer lugar, el calentamiento de los océanos provoca la redistribución de especies marinas más móviles hacia los polos y a mayor profundidad, y una alta mortalidad en especies más sedentarias, como las que construyen y habitan los arrecifes de coral. El calentamiento también provoca una disminución del oxígeno disuelto en los océanos, lo que afecta a los ecosistemas marinos, especialmente en las regiones tropicales.</p>
+</section>
+<footer>
+&copy; Juntos por un cambio
+</footer>
+</body>
+</html>

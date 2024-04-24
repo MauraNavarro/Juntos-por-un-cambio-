@@ -1,0 +1,89 @@
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	background-color: #8C7E7B;
+	}
+	
+	header {
+	font-family: Black Arial;
+	font-size: 300%;
+	background-color: blue;
+	color: white;
+	padding: 1px;
+	text-align: center;
+	}
+	
+	nav {
+	background-color: white;
+	color: red;
+	margin: 0px;
+	padding: 1px;
+	text-align: left;
+	border: 10px solid #ccc;
+	border-radius: 100px;
+	}
+	
+	article {
+	background-color: white;
+	padding: 25px;
+	margin-right: 413px;
+	border: 10px solid #ccc;
+	border-radius: 100px;
+	}
+
+	section {
+	background-color: white;
+	padding: 30px;
+	margin-right: 413px;
+	border: 10px solid #ccc;
+	border-radius: 100px;
+	box-align: left;
+	}
+	
+	aside {
+	background-color: yellow;
+	float:right;
+	width: 20%;
+	height: 1412px;
+	color: black;
+	padding: 10px;
+	text-align: left;
+	border: 10px solid #ccc;
+	}
+	
+	footer {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	text-align: left;
+border: 10px solid #ccc;
+	}
+	form {
+		text-align: right;
+		text-align-last: right;
+		font-style: Arial Black;
+	}
+	h3{
+		text-align:right;
+	}
+	@media screen and (min-width: 320px) { 
+		img {
+			max-width:100%;
+		}
+	}
+	@media screen and (min-width: 768px) { 
+		img {
+			max-width:150px;
+		}
+	}
+	@media screen and (min-width: 980px) { 
+		img {
+			max-width:225px;
+		}
+	}
+	@media screen and (min-width: 1200px) { 
+		img {
+			max-width:300px;
+		}
+	}

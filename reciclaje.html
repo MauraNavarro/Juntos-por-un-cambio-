@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Juntos por un cambio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+<script>
+        // Función para procesar el formulario de guardar datos
+        function guardarDatos() {
+            // Obtener los valores de los campos del formulario
+            var nombre = document.getElementById("nombre").value;
+            var apellido = document.getElementById("apellido").value;
+            var ciudad = document.getElementById("ciudad").value;
+            var pais = document.getElementById("pais").value;
+
+            // Aquí puedes realizar acciones adicionales, como enviar los datos a un servidor o mostrarlos en la página
+        }
+
+        // Función para procesar el formulario de búsqueda en Google
+        function buscarGoogle() {
+            var query = document.getElementById("busqueda").value;
+            var url = "https://www.google.com/search?q=" + encodeURIComponent(query);
+            // Redirigir a la página de búsqueda de Google
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+<header>
+<h1>Juntos por un cambio</h1>
+</header>
+<aside>
+<h3>Buscar en Google</h3>
+        <form onsubmit="buscarGoogle(); return false;">
+            <input type="text" id="busqueda" placeholder="Buscar en Google">
+            <input type="submit" value="Buscar">
+        </form>
+	<h3>Video de Youtube</h3>
+	<iframe width="370" height="200" src="https://www.youtube.com/embed/1uU5qathCus?si=tK215kePyz956vDJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 	
+	<h3>Video de Youtube</h3>
+	<iframe width="370" height="200" src="https://www.youtube.com/embed/2HYx8aItmXc?si=Kx0i1CpoWkahNUYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h4>Recursos Adicionales</h4>
+	<ul>
+	<li><a href="https://www.un.org/es/climatechange/science/climate-issues">Cuestiones climaticas</a></li>
+	<li><a href="https://www.un.org/es/climatechange/what-is-climate-change">Cambio climatico-Naciones unidas</a></li>
+	</ul>
+	</aside>
+<article>
+<h2>Reciclaje creativo</h2>
+<ul>
+	   <li>Lámparas y jarrones de botellas de vidrio :Reciclar botellas de vidrio creando lámparas o jarrones es una idea popular que se puede hacer pintando las<br />botellas con Chalk Paint, envolviéndolas en cordón para una apariencia más cálida o envolviéndolas con tela y encaje.
+</li>
+	   <li>Reciclaje de ropa vieja : A la ropa que ya no se utiliza se le puede dar una segunda oportunidad creando bolsas para la compra, paños de cocina, rellenos<br />para puffs o adornos para fiestas.
+</li>
+	   <li>Reutilizar latas : Las latas se pueden utilizar para crear portalápices, maceteros u organizadores.
+</li>
+	   <li>Crear arte a partir de papel : el papel se puede utilizar para crear una variedad de arte, como lámparas, juguetes, instrumentos musicales o decoraciones.
+</li>
+	   <li>Reutilizar botellas de plástico : Las botellas de plástico se pueden utilizar como maceteros cortándolas por la mitad y haciendo un pequeño corte en la<br />base para el drenaje. Esto puede contribuir a un modelo de consumo responsable dando una segunda o incluso una tercera vida a los materiales.
+</li>
+       <li>Utilizar cestas como papeleras de reciclaje en casa : Utilizar cestas como papeleras de reciclaje en casa puede ayudar a ordenar y clasificar materiales y<br />productos que ya no se utilizan. Esto puede contribuir a un modelo de consumo responsable optimizando los recursos y consumiendo con conciencia.
+</li>
+	   </ul>
+</article>
+<section >
+<h2>¿EN QUE NOS AYUDA?
+</h2>
+	<p><strong>VISION:</strong>Ayudar al planeta tierra de forma divertida y creativa.</p>
+	<p><strong>OBJETIVO GENERAL:</strong>Incentivar a los demas a llevar a cabo la misma actividad</p>
+	<p><strong>RESULTADO:</strong>Obtener un resultado agradable, para cualquier uso.</p>
+<div class="image-container">
+<img src="falta poner" width=372 height=400px alt="Imagenes relacionadas con el cambio climatico">	
+</div>
+            <h3>Guardar Datos</h3>
+            <form onsubmit="guardarDatos(); return false;">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"><br>
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad"><br>
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais"><br>
+                <input type="submit" value="Guardar">
+            </form>
+        
+</section>
+<footer>
+&copy; Juntos por un cambio
+</footer>
+</body>
+</html>
+
